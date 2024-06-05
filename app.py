@@ -67,7 +67,7 @@ def ussd_callback():
     
     elif text == "1*1":
         response = "END We have sent you sms details on the selected adventure\n"
-        sms.send("Time: 9AM to 5PM\n Entry Fee: Residents Adults-400, Kids-200. Non-residents Adults-1500, Kids-750.\n For schools, its free entry with 1-week advance booking.\n Location: Giraffe centre, Duma road, Nairobi", phone_number)
+        sms.send("Time: 9AM to 5PM\n Entry Fee: Residents Adults-400, Kids-200. Non-residents Adults-1500, Kids-750.\n For schools, its free entry with 1-week advance booking.\n Location: Giraffe centre, Duma road, Nairobi", sms_phone_number)
     elif text == "1*2":
         response = "END We have sent you sms details on the selected adventure\n"
         sms.send("Time: 6AM to 7PM\n Entry fee: Adults-430, Kids-215.\n Location: Langata Road, Nairobi",phone_number)
