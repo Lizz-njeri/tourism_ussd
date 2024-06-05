@@ -73,7 +73,7 @@ def ussd_callback():
         sms.send("Time: 6AM to 7PM\n Entry fee: Adults-430, Kids-215.\n Location: Langata Road, Nairobi",phone_number)
     elif text == "1*3":
         response = "END We have sent you sms details on the selected adventure\n"
-        sms.send("Time: 9AM to 5:30PM \n Entry fee: Citizens: Adults-200, Kids-100 \nEast African: Adults-400\n Kids-200\n Non-Resident : Adults-1200, Kids-600.\n Location:Museum Hill, Nairobi",phone_number)
+        sms.send("Time: 9AM to 5:30PM \n Entry fee: Citizens: Adults-200, Kids-100 \nEast African: Adults-400, Kids-200\n Non-Resident : Adults-1200, Kids-600.\n Location:Museum Hill, Nairobi",phone_number)
     elif text == "1*4":
         response = "END We have sent you sms details on the selected adventure\n"
         sms.send("Time: 9AM to 6PM \n Entry fee:Adults-200\n Activities: Boat ride, Horse ride, Camel Riding.", phone_number)
@@ -90,7 +90,7 @@ def ussd_callback():
         sms.send("Time: 9AM to 5:30PM \n Entry fee: Citizens: Adults-200, Kids-100 \nEast African: Adults-400 Kids-200\n Non-Resident : Adults-1200, Kids-600.\n Location:Museum Hill, Nairobi",phone_number)
     elif text == "2*2":
         response ="END We have sent you sms details on the selected adventure"
-        sms.send("Time:8:30AM to 6PM\N Entry fee: Citizens: Adults-200, Kids-100 \n East African: Adults-600, Kids-400\n Non-Resident: Adults-1200, Kids-600\n Location:Karen Road, Nairobi",phone_number)
+        sms.send("Time:8:30AM to 6PM \n Entry fee: Citizens: Adults-200, Kids-100 \n East African: Adults-600, Kids-400\n Non-Resident: Adults-1200, Kids-600\n Location:Karen Road, Nairobi",phone_number)
     elif text == "2*3":
         response ="END We have sent you sms details on the selected adventure"
         sms.send("",phone_number)
