@@ -51,7 +51,7 @@ def ussd_callback():
         response += "2. National Aboretum"
         response += "3. Central Park\n"
         response += "4. City Park Shop\n"
-        response += "5. Rowallan Scout Camp\n"
+       
     elif text == "4":
         response = "CON Available National conservatives"
         response += "1. National Archives\n"
@@ -93,47 +93,45 @@ def ussd_callback():
         sms.send("Time:8:30AM to 6PM \n Entry fee: Citizens: Adults-200, Kids-100 \n East African: Adults-600, Kids-400\n Non-Resident: Adults-1200, Kids-600\n Location:Karen Road, Nairobi",phone_number)
     elif text == "2*3":
         response ="END We have sent you sms details on the selected adventure"
-        sms.send("",phone_number)
+        sms.send("Time: 8AM to 5pm \n Entry fee: Citizen: Adults -200, Kids/Students-100 \n East African: 500\n Non-Resident:Adults-600, Students-300, Kids-100",phone_number)
 
     
     elif text == "3*1":
         response ="END We have sent you sms details on the selected adventure"
-        sms.send("",phone_number)
+        sms.send("Time: 9AM to 6PM \n Entry fee: Free but have a national ID/passport",phone_number)
     elif text == "3*2":
         response ="END We have sent you sms details on the selected adventure"
-        sms.send("",phone_number)
+        sms.send("Time:6AM to 6PM \n Entry fee:Adults-65, Kids-27 \n Location:Kilimani Aboretum Road, off State House Road, Nairobi",phone_number)
     elif text == "3*3":
         response ="END We have sent you sms details on the selected adventure"
-        sms.send("",phone_number)
+        sms.send("Time:9AM to 6PM\n Entry fee: Free\n Location:Kenyatta Avenue, Nairobi",phone_number)
     elif text == "3*4":
         response ="END We have sent you sms details on the selected adventure"
-        sms.send("",phone_number)
-    elif text == "3*5":
-        response ="END We have sent you sms details on the selected adventure"
-        sms.send("",phone_number)
+        sms.send("Time:9AM to 6PM \n Entry fee:Free ",phone_number)
+    
     
     elif text == "4*1":
         response ="END We have sent you sms details on the selected adventure"
-        sms.send("",phone_number)
+        sms.send("Time:9AM to 5PM \n Entry fee: Non residents: Adults-200 \n Citizens: Adults:50 \n Location: Moi Avenue, Nairobi",phone_number)
     elif text == "4*2":
         response ="END We have sent you sms details on the selected adventure"
-        sms.send("",phone_number)
+        sms.send("Time: 8:30AM to 6PM \n Entry fee: Citizens:Adults-150, Kids-100, East African: Adults -600, Kids -400, Non- Residents:Adults -1000, Kids-500 \n Location: Kenyatta Avenue, Nairobi",phone_number)
     elif text == "4*3":
         response ="END We have sent you sms details on the selected adventure"
-        sms.send("",phone_number)
+        sms.send("Time: 2:30PM to 4PM \n Entry fee: Citizens: Adults -200, Kids-50 \n East African:Adults-300, Kids-200\n Non-residents:Adults-1000, Kids-500\n Location:Langata road, Mageso Chember, Nairobi",phone_number)
 
     elif text == "5*1":
         response ="END We have sent you sms details on the selected adventure"
-        sms.send("",phone_number)
+        sms.send("Entry fee:480 \n Location:Ngong town",phone_number)
     elif text == "5*2":
         response ="END We have sent you sms details on the selected adventure"
-        sms.send("",phone_number)
+        sms.send("Time: 6AM to 6PM \n Entry fee: Citizen:Adults-100, Kids-50 \n East African:Adults-200, Kids-100\n Non-resident: Adults-600, Kids-300 \n Location:Limuru road, Nairobi",phone_number)
     elif text == "5*3":
         response ="END We have sent you sms details on the selected adventure"
-        sms.send("",phone_number)
+        sms.send("Time:9AM to 6PM \n Entry fee:Citizens:Adults-200, Kids-100\n East African: Adults-400, Kids-200\n Non-Residents:Adults-600, Kids-300\n Location:Karen Rd, Nairobi",phone_number)
     elif text == "5*4":
         response ="END We have sent you sms details on the selected adventure"
-        sms.send("",phone_number)
+        sms.send("Time: 6AM to 6PM\n Entry fee:Adults-100, Kids-50 \nLocation:Ngong road, Ngong",phone_number)
    
 
     else:
