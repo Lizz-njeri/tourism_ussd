@@ -79,7 +79,7 @@ def ussd_callback():
         sms.send("Time: 9AM to 6PM \n Entry fee:Adults-200\n Activities: Boat ride, Horse ride, Camel Riding.", phone_number)
     elif text == "1*5":
         response = "END We have sent you sms details on the selected adventure\n"
-        sms.send("Entry fee: Adults-2000, Kids-500", phone_number)
+        sms.send("Time: 8AM to 5PM \n Entry fee: Adults-2000, Kids-500\n Location:National Park, Karen, Langata Rd, Nairobi", phone_number)
     elif text == "1*6":
         response = "END We have sent you sms details on the selected adventure\n"
         sms.send("Time: 11AM to 12PM\n Entry fee:Adults-1500. \n Location: Mbagathi Gate, Off Magadi Road,KWS Workshop Entrance-Nairobi National Park, Nairobi",phone_number)
