@@ -23,7 +23,7 @@ def ussd_callback():
     #ussd logic
     if text == "":
         #main menu
-        response = "CON Hello there adveturer,\n Where do you want to be today?\n"
+        response = "CON Hello there adventurer,\n Where do you want to be today?\n"
         response += "1. Game Parks and Reserves\n"
         response += "2. Museums\n"
         response += "3. Recreational Parks\n"
